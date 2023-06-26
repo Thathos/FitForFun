@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="classes.html">Classes Offered</a>
+        <a href="info.html">Sign up here!</a>
+    </header>
+
+    <h1>Welcome to Fitness</h1>
+    <h2>Sign Up Here</h2>
+    <div class="container">
+    <form method="get" action="thankyou.html">
+
+        <fieldset>
+            <legend>Contact Information</legend>
+            <label for="fname">
+                First Name:
+                <input type="text" name="fname" id="fname" required placeholder="First Name">
+            </label>
+            <label for="lname">
+                Last Name:
+                <input type="text" name="lname" id="lname" required placeholder="Last Name">
+            </label>
+                <label for="email">
+                Email:
+                <input type="email" name="email" id="email" required placeholder="your@email.com">
+                </label>
+            <label for="number">
+                Phone:
+                <input type="number" name="number" id="number" placeholder="12345678900">
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Best Way to Contact You</legend>
+            <label for="contactpref">
+                <select name="contactpref" id="contactpref">
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
+                    <option value="owl">Owl</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Classes offered. Multiple selections permitted.</legend>
+            <input type="checkbox" id="xtraining" name="xtraining" value="yes">
+            <label for="xtraining">Cross Training</label>
+
+            <input type="checkbox" id="sprint" name="sprint" value="yes">
+            <label for="sprint">Sprint</label>
+
+            <input type="checkbox" id="spin" name="spin" value="yes">
+            <label for="spin">Spin</label>
+
+            <input type="checkbox" id="bodypump" name="bodypump" value="yes">
+            <label for="bodypump">BodyPump</label>
+
+            <input type="checkbox" id="bodycombat" name="bodycombat" value="yes">
+            <label for="bodycombat">BodyCombat</label>
+
+            <input type="checkbox" id="stepint" name="stepint" value="yes">
+            <label for="stepint">Step Interval</label>
+
+            <input type="checkbox" id="advx" name="advx" value="yes">
+            <label for="advx">Advance Cross Training</label>
+
+            <input type="checkbox" id="mxfit" name="mxfit" value="yes">
+            <label for="mxfit">MixxedFIT</label>
+
+            <input type="checkbox" id="zumba" name="zumba" value="yes">
+            <label for="zumba">Zumba</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferred time of day</legend>
+            <label for="am">AM</label>
+            <input type="radio" id="am" name="tod" value="am">
+
+            <label for="pm">PM</label>
+            <input type="radio" id="pm" name="tod" value="pm">
+        </fieldset>
+
+        <fieldset>
+            <legend>Additional Information</legend>
+            <textarea id="addinfo" name="addinfo" rows="5" cols="50" placeholder="Any additional questions or comments can be entered here"></textarea>
+        </fieldset>
+
+        <input class="submit" type="submit" value="Submit">
+
+    </form>
+</div>
+
+<footer>
+    Fit For Fun Fitness
+</footer>
+
+</body>
+</html>

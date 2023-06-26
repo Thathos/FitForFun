@@ -1,0 +1,68 @@
+body {
+    background-image:url(wood_background_image.png);
+    background-size: cover;
+}
+
+.container {
+    margin: auto;
+    background-color: beige;
+    border-radius: 1em;
+    width:70%;
+    padding: 10px;
+}
+
+p {
+text-align: center;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+table, th, td {
+    text-align: center;
+    border: solid beige 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:nth-child(even) {
+    background-color: #a98467;
+}
+
+tr:nth-child(odd) {
+    background-color: #f0ead2;
+}
+
+footer {
+    text-align: center;
+    border:solid beige 2px;
+    background-color: #a98467;
+    margin: 5%;
+    padding: 15px;
+
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+header {
+    text-align: center;
+    font-size:medium;
+}
+
+a {
+    border: solid #a98467 2px; 
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: beige;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+<meta charset="utf-8">
+<script>
+    function printQuery() {
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+
+    for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        document.write(pair[0] + ": " + pair[1] + "<br />");
+    }
+    }
+</script>
+<link rel="stylesheet" href="style.css" >
+<title>Fit For Fun Fitness Thank You</title>
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Home</a>
+        <a href="classes.html">Classes Offered</a>
+        <a href="info.html">Sign up here!</a>
+    </header>
+
+    <div class="container">
+    <h2>Thank you for filling out the sign up sheet! We shall contact you very soon!</h2>
+
+    <script>
+        printQuery();
+    </script>
+    </div>
+
+    <footer>
+        Fit For Fun Fitness
+    </footer>
+
+</body>
+
+</html>
