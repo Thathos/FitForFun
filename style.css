@@ -67,5 +67,15 @@ a:hover {
 
 .center {
     float: left;
-    margin-left: 16%;
+    width: 33.33%;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+th {
+    padding: 10px;
 }
